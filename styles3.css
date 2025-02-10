@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff; /* Set the outer area to white */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+}
+
+.container {
+    background-color: #acb1e6; /* Purple background */
+    width: 60%; /* Shrinks the width to 50% of the screen */
+    height: 80%; /* Shrinks the height to 50% of the screen */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px; /* Optional: Add rounded corners */
+    border-style: solid;
+    border-color: rgb(227, 239, 242);
+    border-width: 12px;
+}
+
+.card {
+    background-color: #fff;
+    width: 460px;
+    border-radius: 12px;
+    text-align: center;
+    position: relative;
+    overflow: visible;
+    
+}
+
+.badge {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    font-stretch: extra-expanded;
+    top: 9px;
+    left: -7px;
+    background-color: hsl(56, 100%, 69%);
+    color: #000;
+    font-weight: bolder;
+    padding: 4px 12px;
+    border-radius: 12px;
+    font-size: 15px;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+    height: max-content;
+    box-shadow: darkkhaki;
+  }
+
+.image {
+    padding: 0;
+}
+
+.image img {
+    width: 100%;
+    border-radius: 12px 12px 0 0; /* Top corners rounded, bottom square */
+}
+
+.content {
+    padding: 20px;
+}
+
+.content h1 {
+    font-size: 22px;
+    color: #333;
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.content h1 span {
+    font-size: 16px;
+    font-weight: bold;
+    color: #666;
+}
+
+.content p {
+    font-weight: bold;
+    font-size: 18px;
+    color: #0f0e0e;
+    line-height: 1.2;
+    margin-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+}
