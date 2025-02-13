@@ -27,6 +27,39 @@ body {
     font-size: 20px;
     font-weight: bold;
 }
+@media screen and (max-width: 1024px) {
+    .container {
+        transform: scale(0.9);
+    }
+    .checkout-box {
+
+         transform: scale(0.9);
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .container {
+        transform: scale(0.8);
+
+    }
+     .checkout-box {
+
+            transform: scale(0.9);
+        } 
+   
+    }
+  
+  
+  @media screen and (max-width: 480px) {
+    .container {
+        transform: scale(0.7);
+        
+    }
+    .checkout-box {
+
+        transform: scale(0.9);
+    }
+  }
 
 .logo img {
     width: 40px;
