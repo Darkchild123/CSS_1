@@ -6,7 +6,8 @@ body {
     align-items: center; /* Center vertically */
     height: 100vh;
     background-color: rgb(0, 0, 0);
-    padding-left: 5%; /* controls how far from the left it appears */
+    padding-left: 5%; 
+    margin-left: 15%;
 }
 
 .card {
