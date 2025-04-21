@@ -1,0 +1,167 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f9f8;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    gap: 100px;
+    padding: 20px;
+    max-width: 900px;
+    width: 100%;
+    
+  }
+  
+  /* Info Section */
+  .info-section {
+    max-width: 400px;
+    text-align: left;
+    
+    
+    
+  }
+  
+  .info-section .icon {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    margin-bottom: 20px;
+  }
+  
+  .info-section h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .info-section p {
+    font-size: 13px;
+    line-height: 1.5;
+    color: #5c5959;
+    font-family: 'Courier New', Courier, monospace;
+    width: 470px;
+    
+    
+  }
+  
+  
+  /* Form Section */
+  .form-section {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    
+    
+    
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  /* Two-column Layout for Desktop */
+  .form-group {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .form-group div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+  }
+  
+  input,
+  select {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  button {
+    background: #00c394;
+    color: #fff;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background: #009e7c;
+  }
+  
+  form p {
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+  }
+  
+  form a {
+    color: #00c394;
+    text-decoration: none;
+  }
+  
+  form a:hover {
+    text-decoration: underline;
+  }
+  
+  .info-section p::after {
+    content: "Start benefiting from the wellness experience. For companies looking on increasing productivity, and improving organization wellness.";
+  }
+
+  /* Responsive Design */
+  @media screen and (max-width: 720px) {
+    /* Centering everything */
+    .container {
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+      padding: 15px;
+      
+    }
+  
+    .info-section {
+      text-align: left;
+      width: 75%;
+       
+      
+    }
+  
+    .form-section {
+      width: 70%;
+      padding: 20px;
+      
+    }
+  
+    /* Stack form fields in a single column */
+    .form-group {
+      flex-direction: column;
+    }
+  
+    .info-section p::after {
+        
+      content: "Inspiring wholesome harmony for the mind, body,\A and spirit, for everyone, everywhere.";
+      white-space: pre-line;
+    }
+  }
+  
